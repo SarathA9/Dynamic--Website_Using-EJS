@@ -19,7 +19,6 @@ app.post("/submit", (req, res) => {
     noun: randomNoun,
   });
 });
-
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
